@@ -37,7 +37,10 @@ zstyle ':prezto:load' pmodule \
   'directory' \
   'spectrum' \
   'utility' \
+  'ssh' \
   'completion' \
+  'homebrew' \
+  'git' \
   'prompt'
 
 #
@@ -74,6 +77,8 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 
 # Ignore submodules when they are 'dirty', 'untracked', 'all', or 'none'.
 # zstyle ':prezto:module:git:status:ignore' submodules 'all'
+# Use vanilla diff, not Git diff
+zstyle ':prezto:module:utility:diff' color 'no'
 
 #
 # GNU Utility
